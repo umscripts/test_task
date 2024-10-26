@@ -16,7 +16,7 @@ import customer2Icon from './assets/icons/customer2.svg';
 import calander2Icon from './assets/icons/calander2.svg';
 import logoIcon from './assets/icons/logo.svg';
 import { pages, appointments, products, team, recentAppointments } from './Data/Data';
-import Chart from './Data/Chart.jsx';
+import Chart from './Data/chart';
 
 function App() {
   const [sidebar, setsidebar] = useState(false);
