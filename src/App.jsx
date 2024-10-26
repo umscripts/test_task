@@ -111,7 +111,7 @@ function App() {
             />
           </div>
           {/* -----------------Dynamic Appointments Data--------------------------- */}
-          <div className='w-full space-y-3'>
+          <div className='w-11/12 space-y-3'>
             <p className='text-Secondary font-semibold text-lg my-7'>Today's Appointments</p>
             {appointments.map((appointment, index) => (
               <div key={index}>
