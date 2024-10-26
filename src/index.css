@@ -23,6 +23,7 @@
 
 .custom-card {
     @apply w-full py-6 rounded-xl px-3 md:px-5 shadow-lg space-y-5 items-center;
+
 }
 
 .custom-card-body {
