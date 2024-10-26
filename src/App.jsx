@@ -111,7 +111,7 @@ function App() {
             />
           </div>
           {/* -----------------Dynamic Appointments Data--------------------------- */}
-          <div className='w-11/12 space-y-3'>
+          <div className='space-y-3'>
             <p className='text-Secondary font-semibold text-lg my-7'>Today's Appointments</p>
             {appointments.map((appointment, index) => (
               <div key={index}>
@@ -132,7 +132,7 @@ function App() {
             <img src={scrollIcon} alt="scroll" className='mx-auto cursor-pointer' />
           </div>
           {/* -----------------Dynamic Products Data--------------------------- */}
-          <div className='shadow-lg px-3 md:px-5 rounded-2xl'>
+          <div className='shadow-lg px-3 md:px-5 rounded-2xl w-11/12 sm:w-full'>
             <div className='flex justify-between p-3 md:p-5 text-Secondary'>
               <p className='font-semibold text-sm md:text-lg lg:text-xl'>Top Products</p>
               <select id="month-select" className='outline-none cursor-pointer text-xs md:text-sm opacity-70'>
@@ -155,7 +155,7 @@ function App() {
             }
           </div>
           {/* -----------------Dynamic Team Members Data--------------------------- */}
-          <div className='shadow-lg px-3 md:px-5 rounded-2xl'>
+          <div className='shadow-lg px-3 md:px-5 rounded-2xl w-11/12 sm:w-full'>
             <div className='flex justify-between p-3 md:p-5 text-Secondary'>
               <p className='font-semibold text-sm md:text-lg lg:text-xl'>Top Team Members</p>
               <select id="month-select" className='outline-none cursor-pointer text-xs md:text-sm opacity-70'>
