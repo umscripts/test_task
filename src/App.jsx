@@ -64,7 +64,7 @@ function App() {
           <button className='bg-Primary text-white sm:px-5 p-3 sm:py-3 flex gap-2 sm:gap-5 items-center text-sm sm:text-[16px] md:text-lg rounded-lg font-semibold'><img src={calanderIcon} alt="calander" className='w-5 sm:w-6' />New Appointment</button>
         </div>
         {/* ------------------Cards Section---------------------------- */}
-        <div className='sm:flex justify-between gap-5 md:gap-10 my-14'>
+        <div className='sm:flex justify-between gap-5 md:gap-10 my-14 space-y-5 sm:space-y-0'>
           <div className='custom-card'>
             <div className='custom-card-content text-[#007930]'><img src={dollarIcon} alt="dollar" className='w-7 md:w-8' />&#36;1682</div>
             <div className='custom-card-body'>Total Revenue<img src={profitIcon} alt="profit" className='w-10 md:w-auto' /></div>
@@ -98,7 +98,7 @@ function App() {
         </div>
         {/* -----------------------Calander Section------------------------------ */}
         <div className='grid  sm:grid-cols-2 gap-5 my-32 '>
-          <div className='flex justify-center items-center'>
+          <div className='flex justify-center w-11/12 sm:w-full items-center'>
             <Calendar
               onChange={setValue}
               value={value}
