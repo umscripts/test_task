@@ -97,7 +97,7 @@ function App() {
           <Chart />
         </div>
         {/* -----------------------Calander Section------------------------------ */}
-        <div className='grid  sm:grid-cols-2 gap-5 my-32 '>
+        <div className='grid sm:grid-cols-2 gap-5 my-32 '>
           <div className='flex justify-center w-11/12 sm:w-full items-center'>
             <Calendar
               onChange={setValue}
@@ -111,7 +111,7 @@ function App() {
             />
           </div>
           {/* -----------------Dynamic Appointments Data--------------------------- */}
-          <div className='space-y-3'>
+          <div className='w-11/12 sm:w-full space-y-3'>
             <p className='text-Secondary font-semibold text-lg my-7'>Today's Appointments</p>
             {appointments.map((appointment, index) => (
               <div key={index}>
