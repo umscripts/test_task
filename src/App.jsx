@@ -16,7 +16,7 @@ import customer2Icon from './assets/icons/customer2.svg';
 import calander2Icon from './assets/icons/calander2.svg';
 import logoIcon from './assets/icons/logo.svg';
 import { pages, appointments, products, team, recentAppointments } from './Data/Data';
-import Chart from './Data/chart';
+import Chart from './Data/Chart.jsx';
 
 function App() {
   const [sidebar, setsidebar] = useState(false);
@@ -107,7 +107,7 @@ function App() {
               navigationLabel={({ date }) => date.toLocaleDateString('en-US', { month: 'long' })}
               next2Label={null}
               prev2Label={null}
-              className="w-11/12"
+              className="w-10/12"
             />
           </div>
           {/* -----------------Dynamic Appointments Data--------------------------- */}
